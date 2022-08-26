@@ -131,7 +131,7 @@ plt.legend([plot_C , plot_IP3], ['Cytosol', 'IP3'])
 plt.axis([0, np.max(t), 0, np.max(C) * 1.2])
 plt.title('Alzheimer Model ')
 plt.xlabel('Time (s)')
-plt.ylabel('Calcium Concentration (0.2345 uM)')
+plt.ylabel('Calcium Concentration (uM)')
 plt.show()
 
 
